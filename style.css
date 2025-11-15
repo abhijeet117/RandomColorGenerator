@@ -41,6 +41,15 @@ body{
     border-radius: 50%;
 }
 
+#box .hexid{
+    padding: 0rem .5rem;
+    background: transparent;
+    border: none;
+    border: 0.15rem solid #4a4a4a;
+    border-radius: .2rem;
+    color: #4a4a4a; 
+}
+
 #box .buttons button {
     padding: .2rem .4rem;
     background: transparent;
