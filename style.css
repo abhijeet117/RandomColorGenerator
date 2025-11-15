@@ -9,3 +9,43 @@ html, body{
     width: 100%;
 }
 
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #CBCBCB;
+    color: #6D8196;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 300px;
+    border: 0.2rem solid #6D8196;
+    border-radius: 1rem;
+    
+}
+
+#box .circle{
+    height: 150px;
+    width: 150px;
+    border: 0.3rem solid #4a4a4a;
+    border-radius: 50%;
+}
+
+#box .buttons button {
+    padding: .2rem .4rem;
+    background: transparent;
+    border: none;
+    border: 0.15rem solid #4a4a4a;
+    border-radius: .2rem;
+    color: #4a4a4a;
+}
